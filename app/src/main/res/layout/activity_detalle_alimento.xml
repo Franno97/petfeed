@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".capalogica.DetalleAlimentoActivity">
+
+    <TextView
+        android:id="@+id/textVolverAl"
+        android:layout_width="78dp"
+        android:layout_height="32dp"
+        android:layout_marginBottom="28dp"
+        android:text="@string/volver"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.141"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="257dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="4dp"
+        android:text="@string/alimentos_toxicos"
+        android:textSize="26sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/listAlimentosT"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="352dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/alimentos_recomendados"
+        android:textSize="26sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ListView
+        android:id="@+id/listAlimentosR"
+        android:layout_width="409dp"
+        android:layout_height="230dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView33"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <ListView
+        android:id="@+id/listAlimentosT"
+        android:layout_width="408dp"
+        android:layout_height="277dp"
+        android:layout_marginBottom="84dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

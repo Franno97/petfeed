@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">PetFeed</string>
+    <string name="escoja_su_usuario">Escoja su Usuario:</string>
+    <string name="todo">TODO</string>
+    <string name="bienvenid">Bienvenid@</string>
+    <string name="registro_de_usuario">REGISTRO DE USUARIO</string>
+
+    <string name="telefono">Telefono:</string>
+    <string name="id">Id:</string>
+    <string name="nombre">Nombre:</string>
+    <string name="idhint">id</string>
+    <string name="nombrehint">nombre</string>
+    <string name="telefonohint">telefono</string>
+    <string name="registrar">Registrar</string>
+    <string name="mascotas">Mascotas</string>
+    <string name="registro_de_mascota">REGISTRO DE MASCOTA</string>
+
+    <string name="especie">Especie:</string>
+    <string name="especiehint">especie</string>
+    <string name="genero">Genero:</string>
+    <string name="tama_o">Tamaño:</string>
+    <string name="raza">Raza:</string>
+    <string name="razahint">raza</string>
+    <string name="esterilizaci_n">Esterilización:</string>
+    <string name="volver">volver</string>
+    <string name="fecha_aproximada_de_nacimiento">Fecha aproximada de nacimiento</string>
+    <string name="fecha_de_nacimiento">fecha de nacimiento</string>
+    <string name="datos_de_la_mascota">DATOS DE LA MASCOTA</string>
+    <string name="bienvenids">BIENVENID@</string>
+    <string name="enfermedades">enfermedades</string>
+    <string name="enfermedades2">ENFERMEDADES</string>
+    <string name="mascota">Mascota:</string>
+    <string name="volver1"><![CDATA[<<]]></string>
+    <string name="registro_de_enfermedad">REGISTRO DE ENFERMEDAD</string>
+
+    <string name="compuesto_a_evitar">Compuesto a evitar:</string>
+    <string name="afecta_al">Afecta al:</string>
+    <string name="ver_alimentos">Ver alimentos</string>
+    <string name="alimentos_toxicos">ALIMENTOS TOXICOS</string>
+    <string name="alimentos_recomendados">ALIMENTOS RECOMENDADOS</string>
+
+    <string-array name="especies">
+        <item>Seleccione:</item>
+        <item>Perro</item>
+        <item>Gato</item>
+    </string-array>
+    <string-array name="generos">
+        <item>Seleccione:</item>
+        <item>Macho</item>
+        <item>Hembra</item>
+    </string-array>
+    <string-array name="tamaños">
+        <item>Seleccione:</item>
+        <item>Grande</item>
+        <item>Mediano</item>
+        <item>Pequeño</item>
+    </string-array>
+    <string-array name="esterilizacion">
+        <item>Seleccione:</item>
+        <item>Si</item>
+        <item>No</item>
+    </string-array>
+    <string-array name="evitar">
+        <item>Seleccione:</item>
+        <item>Lactosa</item>
+        <item>Grasas</item>
+    </string-array>
+    <string-array name="afecta">
+        <item>Seleccione:</item>
+        <item>Estomago</item>
+        <item>Higado</item>
+    </string-array>
+</resources>
